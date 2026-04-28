@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="98293c1e-d31f-46a2-a8a3-3f4f8621dfa6" name="Activity1" linkedPackageId="699b3d55-97b9-437a-8ed8-fc3d306f933d" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="fd98be34-4887-431a-b51c-cf55bed4c5e7" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="4b64ca6a-27e0-4806-bb0f-51585f19732a" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="04621587-6516-4eb2-b9aa-291260992f6a">
+          <propertyInstance Id="76cf2c89-6f0b-47c8-bbe6-04fb8d223dac" name="BaseName">
+            <elementDefinition Id="0198eb41-89b8-4eef-8035-d1e99804b29f" />
+          </propertyInstance>
+          <elementDefinition Id="9326e09c-2ce9-407e-a5aa-63c0d3bb6384" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="102b5507-16a4-4eeb-a894-4d41032463b3">
+          <propertyInstance Id="4c09dbe2-d68e-479b-ae21-a56bd010b350" name="ClrAttributes">
+            <elementDefinition Id="b7d018c2-907f-4d14-a712-bcc9a40a355f" />
+          </propertyInstance>
+          <elementDefinition Id="5bfb7685-9eff-4f58-87c1-60be8561faa3" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="05d41edc-0cbd-49af-8506-6686bf07a379">
+          <propertyInstance Id="02b66ffd-b3ee-4095-83b1-ddf3faf3a908" name="Usings">
+            <elementDefinition Id="0b59e0e9-f31c-4d0c-a2ae-d8fd5e4b7c6d" />
+          </propertyInstance>
+          <elementDefinition Id="c215dfad-7519-4c03-8b1f-faf2a8fc7391" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="3c39cf46-2349-4bbb-8a5e-1e1ee1a655c3" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="257a7b74-b15f-4819-988c-0f20b6acc304" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="f9ad1244-f098-41ee-a4a9-2de3c1d04e3f">
+          <propertyInstance Id="eaeeb18a-99d2-4781-9181-3e1f70e7da0e" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="4587533f-be7a-4c57-9712-ed5c0d4db79a" />
+          </propertyInstance>
+          <elementDefinition Id="c8bd5801-333d-4f24-841b-d03b84aa3ef1" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9b547c29-5b73-4859-803e-18c6b795e6b1">
+          <propertyInstance Id="f27c2ea9-b837-4f7a-8821-2c641d9e5613" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="18376dd3-46bc-4a79-90a2-920f55bb485e" />
+          </propertyInstance>
+          <elementDefinition Id="0d28638b-d1d3-4a90-97af-687451c854e7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="7c27ffef-d643-4be8-9d4a-42086812ca2d">
+          <propertyInstance Id="29e8f57f-71c2-4db6-a8d6-603e559b478a" name="ProjectPath" value="ClassTemplate=..\Lab1ProjectLib\Lab1ProjectLib.csproj|EnumTemplate=..\Lab1ProjectLib\Lab1ProjectLib.csproj|InterfaceTemplate=..\Lab1ProjectLib\Lab1ProjectLib.csproj|StructTemplate=..\Lab1ProjectLib\Lab1ProjectLib.csproj">
+            <elementDefinition Id="27294c6f-9e6c-4188-819f-0c1016c512e5" />
+          </propertyInstance>
+          <elementDefinition Id="4fc7ee3d-d11d-4752-b0ae-fc2006408300" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="a4fa4057-5fca-40cb-afec-84071cb1c99a">
+          <propertyInstance Id="0de3229b-73f4-4c13-9b81-4a8aa0db0ef1" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="cb3a9a3a-8759-40f7-88b7-38d988e3ea40" />
+          </propertyInstance>
+          <elementDefinition Id="e02face4-ac9a-476e-8187-ce505c8c59b4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9372eee1-b866-48bf-a4c3-3f9838a41740">
+          <propertyInstance Id="7aa14f33-00ea-41aa-a98f-76cc9a001c99" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="0151becc-117d-486c-b257-7854a153dfc5" />
+          </propertyInstance>
+          <elementDefinition Id="4f2372c2-31b4-4bbd-a9a3-0113b42da36f" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="3b4059b5-d2dc-4387-99e0-416a49545ee9">
+          <propertyInstance Id="0b6b2288-7e0e-4758-bda0-c54c2ae4c3bb" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="a9bbb6d5-b24e-4469-bb53-d46b4b54d9d9" />
+          </propertyInstance>
+          <elementDefinition Id="72a78561-0220-4ab1-b246-fc5c965c0cef" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c47d4704-d2d5-4270-af1d-f31128dc80d5">
+          <propertyInstance Id="587eb897-2567-4811-8b79-59adaad03934" name="Parameters">
+            <elementDefinition Id="e3ef76ec-d7d4-4291-88dc-b6dfd52b5f37" />
+          </propertyInstance>
+          <elementDefinition Id="5ac6f309-e726-4bed-8a68-863ae90b200f" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="53c06265-64de-4262-ac3e-55ac47ca6c7d">
+      <profileInstance Id="784b7c7c-41e4-4513-ad5b-477c04238410" name="CSharpProfile">
+        <elementDefinition Id="49b1600e-99ed-4c8c-87ee-d1b179c4de96" />
+      </profileInstance>
+      <elementDefinition Id="31dc82b6-9773-4f4a-a84d-27535486ab1e" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e9c26f8f-2535-4711-8255-ab82e841e8e0">
+      <profileInstance Id="8c6816f7-7ec2-464c-862d-75c93176aed7" name="TextTemplateBindings">
+        <elementDefinition Id="a72c9555-5e70-453d-869a-b0b16973ec4e" />
+      </profileInstance>
+      <elementDefinition Id="e9f2b831-4c9e-4360-afcc-c10a34cbc059" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="ad20ebb5-357f-465b-9017-f7dcfa368e20" name="Activity1" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="f2f13dd4-2eb5-4d70-b4dd-26aa7244e270" />
+        <nodes>
+          <initialNode Id="343f87f1-3ea7-4902-a692-28eaaadafebc" name="Initial1" isLeaf="false">
+            <elementDefinition Id="f2f831e5-3a79-43c1-bec5-d59494f3cdfb" />
+            <flowNodeTargets>
+              <controlFlow Id="283095cf-f688-441f-a0fe-b11a9f2552fe" isLeaf="false">
+                <opaqueActionMoniker Id="f0e3284c-2662-4370-a633-f2672b43ae46" LastKnownName="Авторизация" />
+                <elementDefinition Id="67137db3-8eac-435d-b72a-e0794206334f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="f0e3284c-2662-4370-a633-f2672b43ae46" name="Авторизация" isLeaf="false">
+            <elementDefinition Id="6492d333-61c1-414e-8925-c2d227339cc5" />
+            <flowNodeTargets>
+              <controlFlow Id="d45c8caf-99f8-4c5b-89fa-7d8169b66083" isLeaf="false">
+                <opaqueActionMoniker Id="e354e260-ade0-4ebf-a396-2109d17e679f" LastKnownName="Выбор действия" />
+                <elementDefinition Id="8699c5ac-277c-444b-87eb-5bccc064e44f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="e354e260-ade0-4ebf-a396-2109d17e679f" name="Выбор действия" isLeaf="false">
+            <elementDefinition Id="9add5a3b-ba82-4ee3-bc5d-066bc7cdab55" />
+            <flowNodeTargets>
+              <controlFlow Id="9e161b88-d6a0-4057-9292-0b622d7f504b" isLeaf="false">
+                <decisionNodeMoniker Id="0f8858f4-55b4-41c8-a221-b1ef4ee73a0a" LastKnownName="Decision1" />
+                <elementDefinition Id="9ce1f256-4bc8-42a3-8089-44bc0a1bd8e0" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="0f8858f4-55b4-41c8-a221-b1ef4ee73a0a" name="Decision1" isLeaf="false">
+            <elementDefinition Id="72906fff-9202-4a95-83ae-21032cecbb6f" />
+            <flowNodeTargets>
+              <controlFlow Id="4e4b0bf5-173b-45e1-97d4-4a2dabb58127" guard="Продажа товара" isLeaf="false">
+                <opaqueActionMoniker Id="f8f5360c-9d42-4987-87f4-7c0e964c9b2e" LastKnownName="Ввод артикула    товара" />
+                <elementDefinition Id="936fec64-3c5e-4814-8570-45b4e8ae52f6" />
+              </controlFlow>
+              <controlFlow Id="8337e08d-9f99-448d-a2d6-e8b4eb0ebd40" guard="Прием поставок" isLeaf="false">
+                <opaqueActionMoniker Id="2dbf05fb-a311-4227-ac52-d72014a4e0c3" LastKnownName="Ввод артикула    товара" />
+                <elementDefinition Id="b89e0cdf-c8b9-4a75-9427-35efc3c3ba31" />
+              </controlFlow>
+              <controlFlow Id="fc3e9ad8-213a-49bb-b40c-adecd8393e68" guard="Возврат товара" isLeaf="false">
+                <opaqueActionMoniker Id="f49c1d28-e234-4534-bc18-f72172c1c14b" LastKnownName="Ввод артикула    товара" />
+                <elementDefinition Id="db3cfa3f-7021-4bd9-bad3-5c418353e4cb" />
+              </controlFlow>
+              <controlFlow Id="a0e9f1f2-b9e6-449c-b966-65787aa4f004" guard="Проверка наличия" isLeaf="false">
+                <opaqueActionMoniker Id="315d0db6-955b-419b-865a-bfc735534ff0" LastKnownName="Ввод артикула    товара" />
+                <elementDefinition Id="40ff4147-88b3-468e-8b96-875c15d50c79" />
+              </controlFlow>
+              <controlFlow Id="cc0f71b3-951e-4399-9c0d-53d8b4dcc12f" guard="Выход" isLeaf="false">
+                <joinNodeMoniker Id="a49dd725-77af-4748-af7b-be9ec245a7cc" LastKnownName="Join1" />
+                <elementDefinition Id="f68a7a2e-c35a-4f0c-9f17-a519490b28a7" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="f8f5360c-9d42-4987-87f4-7c0e964c9b2e" name="Ввод артикула    товара" isLeaf="false">
+            <elementDefinition Id="314da070-c958-416d-b04d-bcaf2b0f6392" />
+            <flowNodeTargets>
+              <controlFlow Id="339f3df7-7089-4ceb-bc63-eb450731bc99" isLeaf="false">
+                <opaqueActionMoniker Id="697a97ef-a1af-4eb5-bcc5-9b98b5cc9ea4" LastKnownName="Ввод количества товара" />
+                <elementDefinition Id="4696aac2-99b2-4f93-abb8-f47b21b97444" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="697a97ef-a1af-4eb5-bcc5-9b98b5cc9ea4" name="Ввод количества товара" isLeaf="false">
+            <elementDefinition Id="f1423423-1757-4be6-bb1a-54a1de363d88" />
+            <flowNodeTargets>
+              <controlFlow Id="5ca7a44f-71cd-4e50-a00d-dbcf4c374428" isLeaf="false">
+                <decisionNodeMoniker Id="e7a6264b-6481-449f-882f-08c063ab0f37" LastKnownName="Decision11" />
+                <elementDefinition Id="753fb9ba-c36b-4a01-842f-9be1ea959b89" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="315d0db6-955b-419b-865a-bfc735534ff0" name="Ввод артикула    товара" isLeaf="false">
+            <elementDefinition Id="f61e8187-980a-425a-92b7-f7e57093b142" />
+            <flowNodeTargets>
+              <controlFlow Id="cfa3ede5-e7c2-428c-b839-8ff2d9220413" isLeaf="false">
+                <opaqueActionMoniker Id="e6fb31c3-e761-4646-8dae-f6db3f37959a" LastKnownName="Получение информации" />
+                <elementDefinition Id="7afa64b8-6dc7-4451-8e41-6b5ad3dd8dda" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="e6fb31c3-e761-4646-8dae-f6db3f37959a" name="Получение информации" isLeaf="false">
+            <elementDefinition Id="87a4d569-08e1-4b6f-b282-ddaadc006675" />
+            <flowNodeTargets>
+              <controlFlow Id="6dae36dc-23b0-4e2d-aebd-d3014d848d73" guard="Выход" isLeaf="false">
+                <joinNodeMoniker Id="a49dd725-77af-4748-af7b-be9ec245a7cc" LastKnownName="Join1" />
+                <elementDefinition Id="6351859a-d59c-4d57-b5d6-ed93e2a8fbeb" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="f49c1d28-e234-4534-bc18-f72172c1c14b" name="Ввод артикула    товара" isLeaf="false">
+            <elementDefinition Id="d8e404ef-da33-411a-8a13-7b05be709f22" />
+            <flowNodeTargets>
+              <controlFlow Id="7706a1b2-b0ab-455d-916c-dc1af692c0ab" isLeaf="false">
+                <opaqueActionMoniker Id="2c0ebdc8-5f19-42ee-a9cf-3701723d4a6c" LastKnownName="Ввод количества товара" />
+                <elementDefinition Id="d763cce2-8bd3-42e1-8f9b-84d8fc5153f7" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="2c0ebdc8-5f19-42ee-a9cf-3701723d4a6c" name="Ввод количества товара" isLeaf="false">
+            <elementDefinition Id="df88bd80-4125-47e9-b470-175d9a63ab9c" />
+            <flowNodeTargets>
+              <controlFlow Id="ebaa8c1c-28a4-43db-b960-6b12a61f7cb9" isLeaf="false">
+                <decisionNodeMoniker Id="6177707f-cba0-4a25-8f7f-9aac699298a7" LastKnownName="Decision111" />
+                <elementDefinition Id="da0862d7-4def-4956-ad50-aea5450fb152" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="2dbf05fb-a311-4227-ac52-d72014a4e0c3" name="Ввод артикула    товара" isLeaf="false">
+            <elementDefinition Id="66617ada-3996-4fc1-a0c8-37b1f1dd4f55" />
+            <flowNodeTargets>
+              <controlFlow Id="813eafc1-5e23-458b-9842-0456e95b7f82" isLeaf="false">
+                <opaqueActionMoniker Id="b6423e9d-c14c-455e-881b-ab45791deb55" LastKnownName="Ввод количества товара" />
+                <elementDefinition Id="ec8edbc8-6616-44da-850b-43adc552d523" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="b6423e9d-c14c-455e-881b-ab45791deb55" name="Ввод количества товара" isLeaf="false">
+            <elementDefinition Id="b6b2fb93-8784-4305-86ed-0dfc570bb3ca" />
+            <flowNodeTargets>
+              <controlFlow Id="ee94ec3c-b616-4ab2-879a-45d01e3f18f1" isLeaf="false">
+                <decisionNodeMoniker Id="a2e93b66-4cac-44e7-ace9-fbc317ca5a4e" LastKnownName="Decision1111" />
+                <elementDefinition Id="f0b3924c-df91-4fd5-a725-b4bb7cbd097e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="e7a6264b-6481-449f-882f-08c063ab0f37" name="Decision11" isLeaf="false">
+            <elementDefinition Id="11ebd909-7220-4416-8317-43ced9d37d75" />
+            <flowNodeTargets>
+              <controlFlow Id="bc21b2d9-29f6-47e4-8711-7a6fa6c35418" guard="Следующий товар" isLeaf="false">
+                <opaqueActionMoniker Id="f8f5360c-9d42-4987-87f4-7c0e964c9b2e" LastKnownName="Ввод артикула    товара" />
+                <elementDefinition Id="ab00c061-a60b-41cc-9e5a-e4ddac5a6144" />
+              </controlFlow>
+              <controlFlow Id="f60c5e19-7e45-42e1-9d34-c2353b5da392" guard="Выход" isLeaf="false">
+                <joinNodeMoniker Id="a49dd725-77af-4748-af7b-be9ec245a7cc" LastKnownName="Join1" />
+                <elementDefinition Id="82b4c8e0-b72b-47f2-ac26-ab9c24234f56" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="6177707f-cba0-4a25-8f7f-9aac699298a7" name="Decision111" isLeaf="false">
+            <elementDefinition Id="5f0502a8-9c68-47e6-9605-a6c363803029" />
+            <flowNodeTargets>
+              <controlFlow Id="457d6e1c-b313-4467-a431-d82456ce97c7" guard="Следующий товар" isLeaf="false">
+                <opaqueActionMoniker Id="f49c1d28-e234-4534-bc18-f72172c1c14b" LastKnownName="Ввод артикула    товара" />
+                <elementDefinition Id="25082bed-853a-4b14-93ff-0011f369e46b" />
+              </controlFlow>
+              <controlFlow Id="0fde5442-64ec-423c-a29f-4de57357c606" guard="Выход" isLeaf="false">
+                <joinNodeMoniker Id="a49dd725-77af-4748-af7b-be9ec245a7cc" LastKnownName="Join1" />
+                <elementDefinition Id="0f96fab6-448d-4937-a090-2f53c8a5f0b7" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="a2e93b66-4cac-44e7-ace9-fbc317ca5a4e" name="Decision1111" isLeaf="false">
+            <elementDefinition Id="2e30e7bb-162a-42bf-82ef-b3c6fd650b1c" />
+            <flowNodeTargets>
+              <controlFlow Id="3fadeb28-547c-4bd4-81ad-8ead757e4028" guard="Следующий товар" isLeaf="false">
+                <opaqueActionMoniker Id="2dbf05fb-a311-4227-ac52-d72014a4e0c3" LastKnownName="Ввод артикула    товара" />
+                <elementDefinition Id="f2d575b5-8668-472a-97fb-025965729b35" />
+              </controlFlow>
+              <controlFlow Id="1d0930aa-6282-4e0e-b415-492d47cef6a7" guard="Выход" isLeaf="false">
+                <joinNodeMoniker Id="a49dd725-77af-4748-af7b-be9ec245a7cc" LastKnownName="Join1" />
+                <elementDefinition Id="795e030a-238c-434f-a2be-ca9b5d488fd8" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <joinNode Id="a49dd725-77af-4748-af7b-be9ec245a7cc" name="Join1" isLeaf="false">
+            <elementDefinition Id="13919a25-c00c-4f0d-b4d4-8258e1c642f8" />
+            <flowNodeTargets>
+              <controlFlow Id="aa8cd81e-9b9f-4508-a71e-c19939b17f78" isLeaf="false">
+                <activityFinalNodeMoniker Id="d56dc5e8-d8bf-4bec-ab23-2897188c3782" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="f022b64d-c83e-458f-9de0-edf9c69efcc8" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+          <activityFinalNode Id="d56dc5e8-d8bf-4bec-ab23-2897188c3782" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="f070a3d7-aaa5-4ffd-a756-91fccd8fda15" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="699b3d55-97b9-437a-8ed8-fc3d306f933d" name="Lab1Project">
+    <elementDefinition Id="4b876798-488e-4325-9c1f-5a18ad13a063" />
+    <profileInstances>
+      <packageHasProfileInstances Id="755ce6a7-4f42-4270-ba54-9e5655f5c705">
+        <profileInstance Id="ede19462-e603-479a-b827-035a2fba4b5d" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="d2d5036f-d6c9-4476-ac96-b403de66102f">
+        <profileInstance Id="dc4df3df-7ce2-428c-9315-82c32a8ca718" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

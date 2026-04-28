@@ -1,0 +1,5 @@
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\bin\Debug\Lab1ProjectLib.dll
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\bin\Debug\Lab1ProjectLib.pdb
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\obj\Debug\Lab1ProjectLib.dll
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\obj\Debug\Lab1ProjectLib.pdb
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\obj\Debug\Lab1ProjectLib.csprojResolveAssemblyReference.cache

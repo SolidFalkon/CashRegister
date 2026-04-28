@@ -1,0 +1,8 @@
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\TestLab1\obj\Debug\TestLab1.csprojResolveAssemblyReference.cache
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\TestLab1\bin\Debug\TestLab1.exe.config
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\TestLab1\bin\Debug\TestLab1.exe
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\TestLab1\bin\Debug\TestLab1.pdb
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\TestLab1\bin\Debug\Lab1ProjectLib.dll
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\TestLab1\bin\Debug\Lab1ProjectLib.pdb
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\TestLab1\obj\Debug\TestLab1.exe
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\TestLab1\obj\Debug\TestLab1.pdb

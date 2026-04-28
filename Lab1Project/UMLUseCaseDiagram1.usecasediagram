@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="05c94028-6eb0-431e-96e1-da5ee5ffa3d5" name="UMLUseCaseDiagram1" linkedPackageId="37358e6a-88ae-412c-957e-01d45f4659b1" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="98ff5982-37c8-4bc1-8eac-2b8eea9279ff" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="4b64ca6a-27e0-4806-bb0f-51585f19732a" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="caab7a4f-c52d-4e3b-b578-cfe9167c11d6">
+          <propertyInstance Id="5abe743a-74e4-4166-814a-20569429c7ed" name="BaseName">
+            <elementDefinition Id="0198eb41-89b8-4eef-8035-d1e99804b29f" />
+          </propertyInstance>
+          <elementDefinition Id="9326e09c-2ce9-407e-a5aa-63c0d3bb6384" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="234e4d78-0382-468e-bcd4-93f99ab37abf">
+          <propertyInstance Id="e54c2f5d-a8ae-40e4-abf5-0f3f59c01339" name="ClrAttributes">
+            <elementDefinition Id="b7d018c2-907f-4d14-a712-bcc9a40a355f" />
+          </propertyInstance>
+          <elementDefinition Id="5bfb7685-9eff-4f58-87c1-60be8561faa3" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="add43f3c-4bfd-4348-816b-5d2e7df817e3">
+          <propertyInstance Id="12e2832e-a48c-42d4-9f77-947a23176e21" name="Usings">
+            <elementDefinition Id="0b59e0e9-f31c-4d0c-a2ae-d8fd5e4b7c6d" />
+          </propertyInstance>
+          <elementDefinition Id="c215dfad-7519-4c03-8b1f-faf2a8fc7391" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="ade4d59a-80e0-4e23-91ea-25469accfe65" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="257a7b74-b15f-4819-988c-0f20b6acc304" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="bfdc7ac7-f38a-48f5-942d-97430d677f2f">
+          <propertyInstance Id="72a3045f-e201-45c0-a618-e6906e2fcf1a" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="4587533f-be7a-4c57-9712-ed5c0d4db79a" />
+          </propertyInstance>
+          <elementDefinition Id="c8bd5801-333d-4f24-841b-d03b84aa3ef1" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="89c9ad09-e3f5-4c1e-801b-2ddfcf5a0b30">
+          <propertyInstance Id="8f329004-7e79-429f-80ba-2473e51264ea" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="18376dd3-46bc-4a79-90a2-920f55bb485e" />
+          </propertyInstance>
+          <elementDefinition Id="0d28638b-d1d3-4a90-97af-687451c854e7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c12c1901-4292-4cfd-b3fc-dcb7a1579c64">
+          <propertyInstance Id="86f4f610-35dd-403c-87a1-cc4fef79dc48" name="ProjectPath" value="ClassTemplate=..\Lab1ProjectLib\Lab1ProjectLib.csproj|EnumTemplate=..\Lab1ProjectLib\Lab1ProjectLib.csproj|InterfaceTemplate=..\Lab1ProjectLib\Lab1ProjectLib.csproj|StructTemplate=..\Lab1ProjectLib\Lab1ProjectLib.csproj">
+            <elementDefinition Id="27294c6f-9e6c-4188-819f-0c1016c512e5" />
+          </propertyInstance>
+          <elementDefinition Id="4fc7ee3d-d11d-4752-b0ae-fc2006408300" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="dd5becd8-0ad5-42ba-8f9c-4d33458d7017">
+          <propertyInstance Id="a2c42636-e810-488d-81b8-c67c41c0b543" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="cb3a9a3a-8759-40f7-88b7-38d988e3ea40" />
+          </propertyInstance>
+          <elementDefinition Id="e02face4-ac9a-476e-8187-ce505c8c59b4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="a6472c56-2299-4cca-86f5-287985391f27">
+          <propertyInstance Id="d0a27b43-d887-43bc-836c-469354caf7b1" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="0151becc-117d-486c-b257-7854a153dfc5" />
+          </propertyInstance>
+          <elementDefinition Id="4f2372c2-31b4-4bbd-a9a3-0113b42da36f" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="68a558a1-9331-417e-9384-ae0e61aae838">
+          <propertyInstance Id="e217082a-b83f-4e00-b413-d979db3a1cd9" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="a9bbb6d5-b24e-4469-bb53-d46b4b54d9d9" />
+          </propertyInstance>
+          <elementDefinition Id="72a78561-0220-4ab1-b246-fc5c965c0cef" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="035bf7c9-7414-4984-b491-db8bfce85386">
+          <propertyInstance Id="0f1500f4-09cd-492b-b07f-160d6d471e28" name="Parameters">
+            <elementDefinition Id="e3ef76ec-d7d4-4291-88dc-b6dfd52b5f37" />
+          </propertyInstance>
+          <elementDefinition Id="5ac6f309-e726-4bed-8a68-863ae90b200f" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="4f73b2bc-bc1b-4aa1-8a21-11f4e60edd06">
+      <profileInstance Id="ef88ffd2-6115-4504-b433-7e2f124690e4" name="CSharpProfile">
+        <elementDefinition Id="49b1600e-99ed-4c8c-87ee-d1b179c4de96" />
+      </profileInstance>
+      <elementDefinition Id="31dc82b6-9773-4f4a-a84d-27535486ab1e" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e9bf4e8d-dfa1-4400-ac15-a504b061ef6f">
+      <profileInstance Id="3e4ec1e6-5b11-4e5c-8e29-27a0775f4fed" name="TextTemplateBindings">
+        <elementDefinition Id="a72c9555-5e70-453d-869a-b0b16973ec4e" />
+      </profileInstance>
+      <elementDefinition Id="e9f2b831-4c9e-4360-afcc-c10a34cbc059" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="ebbbddf4-afef-4ffc-9024-b1e0b87fa485" name="Cashier" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8826e0ca-0676-4bfe-ae0d-d30ee364cd75" />
+        <targetEnds>
+          <association Id="2e3db90e-279e-4181-bdd8-0dbd69fc309e" isDerived="false" sourceEndRoleName="Cashier" targetEndRoleName="Сканировать штрих-код" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9520e4f5-7765-45c9-a0d4-42f3cddd50f8" LastKnownName="Сканировать штрих-код" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="430c27dc-ec33-48c2-b478-1912312b8bad" name="Cashier" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d75e199a-3a5c-4982-8600-efa70de18f6c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="80ef1841-73e2-4c74-9248-bd3d8088c635" name="Сканировать штрих-код" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="381e6157-d269-4ef3-97e1-d75f5255f38c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="297f6a98-af2b-4a2d-84a2-f317397e48b3" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9520e4f5-7765-45c9-a0d4-42f3cddd50f8" name="Сканировать штрих-код" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a6114633-5ab6-45e1-a87f-e60f0bce921d" />
+        <targetEnds>
+          <association Id="ef95ee6d-3b8f-4c78-98d5-5dc8188380f9" isDerived="false" sourceEndRoleName="Сканировать штрих-код" targetEndRoleName="Оформить продажу" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0144a2bc-7b5b-4ddf-808a-a133f9059b6a" LastKnownName="Оформить продажу" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="26fe5001-0a1b-4aa2-90cc-1bb60021b4b0" name="Сканировать штрих-код" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="578021db-7492-47ff-874d-e9dfd80b72bb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6b2323a3-3e07-4aa5-8e7b-5f7fad90dd50" name="Оформить продажу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bf247e41-7404-46ba-b91e-c17b95c6a6aa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2a2cbf2d-12b3-4eb1-b1a1-7e9caacbe705" />
+          </association>
+          <association Id="b6fcafe6-9efd-405d-acbe-ef24de159d4d" isDerived="false" sourceEndRoleName="Сканировать штрих-код" targetEndRoleName="Принять поставку" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="cb18d6e6-4634-45f4-a6ea-da20b2f7d65c" LastKnownName="Принять поставку" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d7c4ef3b-3117-42e5-9596-872a2f49c20b" name="Сканировать штрих-код" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fb0a3940-f12b-4789-891b-085a3f47788a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="de0025a7-fe65-48f1-82ac-3b5e9ea3307b" name="Принять поставку" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c10a89ee-25e8-47e8-9a52-3089c0167db2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6955846d-f2b9-4088-9938-7a83d1168560" />
+          </association>
+          <association Id="5f0d01f8-8a3b-4cf2-aa3b-92a496674450" isDerived="false" sourceEndRoleName="Сканировать штрих-код" targetEndRoleName="Вернуть товар" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b55bca5c-f387-4091-9b92-a50ceef860bd" LastKnownName="Вернуть товар" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eadb0b36-b987-4ed3-a54c-e56e7abf8d8b" name="Сканировать штрих-код" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0ddc0190-8502-48e0-8fa4-0d7d7cabfbc9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="48bd8982-cb94-48e5-87be-e19d77af3ff1" name="Вернуть товар" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f63e7502-6deb-47e3-b217-c7d61db2a4c2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="32abfd9d-96df-449d-990a-38747d7384cf" />
+          </association>
+          <association Id="9b1c7416-0caf-4d9e-8262-aded9e2a6c55" isDerived="false" sourceEndRoleName="Сканировать штрих-код" targetEndRoleName="Проверить остаток" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f8acf626-36ae-4bc7-a782-acc46b5a4d72" LastKnownName="Проверить остаток" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="856f00f7-c385-47a6-b5a4-c855cc0edd2e" name="Сканировать штрих-код" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ba1c890f-bd4a-4cb8-be21-97de184ced26" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f32d8074-6376-4a67-9859-f6f0fe2e58e0" name="Проверить остаток" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="75a00088-f274-45a4-ae62-f73e714b6d9c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ca0cc6e2-c146-4547-8245-c99544349484" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0144a2bc-7b5b-4ddf-808a-a133f9059b6a" name="Оформить продажу" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4e854946-41fe-4f1a-bfb4-bdb912f61cb1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="cb18d6e6-4634-45f4-a6ea-da20b2f7d65c" name="Принять поставку" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bbe4bbfd-186f-431d-a6a2-bb9eb2697799" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b55bca5c-f387-4091-9b92-a50ceef860bd" name="Вернуть товар" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3391a59f-f57d-4422-bdb3-b2e6770ecc79" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f8acf626-36ae-4bc7-a782-acc46b5a4d72" name="Проверить остаток" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4f0e992c-c35c-4443-a8da-52e9abaef018" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="37358e6a-88ae-412c-957e-01d45f4659b1" name="Lab1Project">
+    <elementDefinition Id="4b876798-488e-4325-9c1f-5a18ad13a063" />
+    <profileInstances>
+      <packageHasProfileInstances Id="23efc4b6-2bde-42c0-b79d-9a0990d415e5">
+        <profileInstance Id="cfeaa54e-5392-4bbc-bfaf-0683d291628c" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="26222305-824e-4a48-bc7f-030be4911ade">
+        <profileInstance Id="a9feca70-0875-46fb-a93b-70c464829ff2" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

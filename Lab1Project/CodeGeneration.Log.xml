@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2026-04-19T03:57:38" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2026-04-19T03:57:38" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2026-04-19T03:57:38" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2026-04-19T03:57:38" Importance="Diagnostic" Text="ProjectPath = ..\Lab1ProjectLib\Lab1ProjectLib.csproj" />
+  <Message Timestamp="2026-04-19T03:57:38" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2026-04-19T03:57:38" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2026-04-19T03:57:38" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2026-04-19T03:57:38" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2026-04-19T03:57:38" Importance="Medium" Text="Lab1Project's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'Lab1Project::Cashier' -  (Class), 'Lab1Project::Product' -  (Class), 'Lab1Project::Search' -  (Class), 'Lab1Project::Return' -  (Class), 'Lab1Project::Supply' -  (Class), 'Lab1Project::Sell' -  (Class), 'Lab1Project::Storage' -  (Class), 'Lab1Project::Aurorization' -  (Class), 'Lab1Project::Program' -  (Class), 'Lab1Project::Menu' -  (Class) " />
+  <Message Timestamp="2026-04-19T03:57:42" Importance="Medium" Text="Project Added: C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\Lab1ProjectLib.csproj" />
+  <Message Timestamp="2026-04-19T03:57:42" Importance="Medium" Text="'Lab1Project::Cashier' -  (Class) : success (file created) - C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\GeneratedCode\Cashier.cs" />
+  <Message Timestamp="2026-04-19T03:57:42" Importance="Medium" Text="'Lab1Project::Product' -  (Class) : success (file created) - C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\GeneratedCode\Product.cs" />
+  <Message Timestamp="2026-04-19T03:57:42" Importance="Medium" Text="'Lab1Project::Search' -  (Class) : success (file created) - C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\GeneratedCode\Search.cs" />
+  <Message Timestamp="2026-04-19T03:57:43" Importance="Medium" Text="'Lab1Project::Return' -  (Class) : success (file created) - C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\GeneratedCode\Return.cs" />
+  <Message Timestamp="2026-04-19T03:57:43" Importance="Medium" Text="'Lab1Project::Supply' -  (Class) : success (file created) - C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\GeneratedCode\Supply.cs" />
+  <Message Timestamp="2026-04-19T03:57:43" Importance="Medium" Text="'Lab1Project::Sell' -  (Class) : success (file created) - C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\GeneratedCode\Sell.cs" />
+  <Message Timestamp="2026-04-19T03:57:43" Importance="Medium" Text="'Lab1Project::Storage' -  (Class) : success (file created) - C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\GeneratedCode\Storage.cs" />
+  <Message Timestamp="2026-04-19T03:57:43" Importance="Medium" Text="'Lab1Project::Aurorization' -  (Class) : success (file created) - C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\GeneratedCode\Aurorization.cs" />
+  <Message Timestamp="2026-04-19T03:57:43" Importance="Medium" Text="'Lab1Project::Program' -  (Class) : success (file created) - C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\GeneratedCode\Program.cs" />
+  <Message Timestamp="2026-04-19T03:57:43" Importance="Medium" Text="'Lab1Project::Menu' -  (Class) : success (file created) - C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\Lab1ProjectLib\GeneratedCode\Menu.cs" />
+  <Message Timestamp="2026-04-19T03:57:43" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2026-04-19T03:57:43" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2026-04-19T03:57:43" Importance="Diagnostic" Text="ProjectPath = ..\Lab1ProjectLib\Lab1ProjectLib.csproj" />
+  <Message Timestamp="2026-04-19T03:57:43" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2026-04-19T03:57:43" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2026-04-19T03:57:43" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2026-04-19T03:57:43" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2026-04-19T03:57:43" Importance="Medium" Text="Lab1Project's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'Lab1Project::Cashier' -  (Class), 'Lab1Project::Product' -  (Class), 'Lab1Project::Search' -  (Class), 'Lab1Project::Return' -  (Class), 'Lab1Project::Supply' -  (Class), 'Lab1Project::Sell' -  (Class), 'Lab1Project::Storage' -  (Class), 'Lab1Project::Aurorization' -  (Class), 'Lab1Project::Program' -  (Class), 'Lab1Project::Menu' -  (Class) " />
+  <Message Timestamp="2026-04-19T03:57:44" Importance="Diagnostic" Text="'Lab1Project::Cashier' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2026-04-19T03:57:44" Importance="Diagnostic" Text="'Lab1Project::Product' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2026-04-19T03:57:44" Importance="Diagnostic" Text="'Lab1Project::Search' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2026-04-19T03:57:44" Importance="Diagnostic" Text="'Lab1Project::Return' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2026-04-19T03:57:44" Importance="Diagnostic" Text="'Lab1Project::Supply' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2026-04-19T03:57:44" Importance="Diagnostic" Text="'Lab1Project::Sell' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2026-04-19T03:57:44" Importance="Diagnostic" Text="'Lab1Project::Storage' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2026-04-19T03:57:44" Importance="Diagnostic" Text="'Lab1Project::Aurorization' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2026-04-19T03:57:44" Importance="Diagnostic" Text="'Lab1Project::Program' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2026-04-19T03:57:44" Importance="Diagnostic" Text="'Lab1Project::Menu' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2026-04-19T03:57:44" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>
