@@ -28,6 +28,7 @@ public class Menu
             this.sell = sell;
         }
 
+        //Фукция вывода меню
         public void ShowMenu()
         {
             while (true)

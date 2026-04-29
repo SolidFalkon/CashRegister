@@ -14,6 +14,7 @@ public class Cashier
     public string Login { get; set; }
     public string Password { get; set; }
 
+    //функция генерации пароля
 	public virtual string GenerateNewPassword()
 	{
         const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
