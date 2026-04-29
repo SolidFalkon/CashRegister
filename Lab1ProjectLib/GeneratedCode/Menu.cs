@@ -75,6 +75,7 @@ public class Menu
             }
         }
 
+        //Запуск функции прожажи продукта с вводом значений
         private void SellProduct()
         {
             Console.Write("Entering the product article number: ");
