@@ -85,7 +85,8 @@ public class Menu
 
             sell.SellF(article, quantity, storage.ReadStock());
         }
-
+        
+        //Запуск функции получиния поставки
         private void GetSupply()
         {
             Console.Write("Entering the product article number: ");
