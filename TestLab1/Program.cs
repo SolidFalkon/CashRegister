@@ -35,6 +35,7 @@ public class Program
         else
         {
                 Console.WriteLine("Authorization error!");
+                Console.ReadLine();
         }
     }
 }

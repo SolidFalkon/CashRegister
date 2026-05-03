@@ -11,7 +11,7 @@ using System.Text;
 
 public class Supply
 {
-	public void GetSupply(int article, int quantity, List<Product> stock)
+	public void GetSupply(long article, int quantity, List<Product> stock)
     {
         var product = stock.FirstOrDefault(p => p.Article == article);
         if (product != null)

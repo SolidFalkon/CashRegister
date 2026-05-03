@@ -11,8 +11,8 @@ using System.Text;
 
 public class Storage
 {
-    private List<Product> products = new List<Product>();
-    public void Correct(string Type, int Article, int Value)
+    public List<Product> products = new List<Product>();
+    public void Correct(string Type, long Article, int Value)
 	{
         var product = products.FirstOrDefault(p => p.Article == Article);
         if (Type == "quantity" && product != null)
@@ -21,12 +21,12 @@ public class Storage
         }
 	}
 
-	public virtual List<Product> ReadStock()
+	public List<Product> ReadStock()
 	{
         return products.ToList();
 	}
 
-	public virtual void WriteStock(List<Product> Pr)
+	public void WriteStock(List<Product> Pr)
 	{
         products = Pr.ToList();
 	}

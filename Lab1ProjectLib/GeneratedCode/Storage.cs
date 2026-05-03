@@ -12,7 +12,7 @@ using System.Text;
 public class Storage
 {
     private List<Product> products = new List<Product>();
-    public void Correct(string Type, int Article, int Value)
+    public void Correct(string Type, long Article, int Value)
 	{
         var product = products.FirstOrDefault(p => p.Article == Article);
         if (Type == "quantity" && product != null)

@@ -11,18 +11,18 @@ using System.Text;
 
 public class Supply
 {
-	public void GetSupply(int article, int quantity, List<Product> stock)
+    public void GetSupply(long article, int quantity, Storage storage)
     {
-        var product = stock.FirstOrDefault(p => p.Article == article);
+        var product = storage.products.FirstOrDefault(p => p.Article == article);
         if (product != null)
         {
             product.Quantity += quantity;
         }
         else
         {
-            stock.Add(new Product { Article = article, Quantity = quantity });
+            storage.products.Add(new Product { Article = article, Quantity = quantity });
         }
-        Console.WriteLine("Supply: article ", article, "quantity", quantity);
+        Console.WriteLine("Supply: article " + article + ", quantity " + quantity);
     }
 }
 

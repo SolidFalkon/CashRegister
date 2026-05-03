@@ -11,16 +11,16 @@ using System.Text;
 
 public class Sell
 {
-    public bool SellF(int article, int quantity, List<Product> stock)
+    public bool SellF(long article, int quantity, List<Product> stock)
 	{
         var product = stock.FirstOrDefault(p => p.Article == article);
         if (product != null && product.Quantity >= quantity)
         {
             product.Quantity -= quantity;
-            Console.WriteLine("Sold: article ", article, " quantity", quantity);
+            Console.WriteLine("Sold: article " + article + " quantity " + quantity);
             return true;
         }
-        Console.WriteLine("Error: Product ", article, "is missing or insufficient");
+        Console.WriteLine("Error: Product "+ article + " is missing or insufficient");
         return false;
 	}
 

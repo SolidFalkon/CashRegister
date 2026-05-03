@@ -11,9 +11,9 @@ using System.Text;
 
 public class Return
 {
-    public bool Ret(int article, int quantity, List<Product> stock)
+    public bool Ret(long article, int quantity, Storage storage)
     {
-        var product = stock.FirstOrDefault(p => p.Article == article);
+        var product = storage.products.FirstOrDefault(p => p.Article == article);
         if (product != null)
         {
             product.Quantity += quantity;

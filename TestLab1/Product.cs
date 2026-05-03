@@ -11,7 +11,7 @@ using System.Text;
 
 public class Product
 {
-	public int Article { get; set; }
+	public long Article { get; set; }
 	public int Quantity { get; set; }
 }
 

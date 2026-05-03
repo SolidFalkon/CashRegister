@@ -11,7 +11,7 @@ using System.Text;
 
 public class Sell
 {
-    public bool SellF(int article, int quantity, List<Product> stock)
+    public bool SellF(long article, int quantity, List<Product> stock)
 	{
         var product = stock.FirstOrDefault(p => p.Article == article);
         if (product != null && product.Quantity >= quantity)

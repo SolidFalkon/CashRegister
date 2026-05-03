@@ -11,7 +11,7 @@ using System.Text;
 
 public class Search
 {
-    public Product SearchF(int article, List<Product> stock)
+    public Product SearchF(long article, List<Product> stock)
     {
         return stock.FirstOrDefault(p => p.Article == article);
     }

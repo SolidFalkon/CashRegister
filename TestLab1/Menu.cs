@@ -8,137 +8,257 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 public class Menu
 {
-	private Storage storage;
-        private Autorization auth;
-        private Search search;
-        private Return returnProduct;
-        private Supply supply;
-        private Sell sell;
+    private Storage storage;
+    private Autorization auth;
+    private Search search;
+    private Return returnProduct;
+    private Supply supply;
+    private Sell sell;
 
-        public Menu(Storage storage, Autorization auth, Search search, Return returnProduct, Supply supply, Sell sell)
-        {
-            this.storage = storage;
-            this.auth = auth;
-            this.search = search;
-            this.returnProduct = returnProduct;
-            this.supply = supply;
-            this.sell = sell;
-        }
+    public Menu(Storage storage, Autorization auth, Search search, Return returnProduct, Supply supply, Sell sell)
+    {
+        this.storage = storage;
+        this.auth = auth;
+        this.search = search;
+        this.returnProduct = returnProduct;
+        this.supply = supply;
+        this.sell = sell;
+    }
 
-        public void ShowMenu()
+    public void ShowMenu()
+    {
+        while (true)
         {
-            while (true)
+            Console.WriteLine("\n=== MENU ===");
+            Console.WriteLine("1. Sale of goods");
+            Console.WriteLine("2. Acceptance of deliveries");
+            Console.WriteLine("3. Return of goods");
+            Console.WriteLine("4. Check availability");
+            Console.WriteLine("5. Add a new cashier");
+            Console.WriteLine("6. Show warehouse");
+            Console.WriteLine("0. Exit");
+            Console.Write("Select an action: ");
+
+            string choice = Console.ReadLine();
+
+            switch (choice)
             {
-                Console.WriteLine("\n=== MENU ===");
-                Console.WriteLine("1. Sale of goods");
-                Console.WriteLine("2. Acceptance of deliveries");
-                Console.WriteLine("3. Return of goods");
-                Console.WriteLine("4. Check availability");
-                Console.WriteLine("5. Add a new cashier");
-                Console.WriteLine("6. Show warehouse");
-                Console.WriteLine("0. Exit");
-                Console.Write("Select an action: ");
-
-                string choice = Console.ReadLine();
-
-                switch (choice)
-                {
-                    case "1":
-                        SellProduct();
-                        break;
-                    case "2":
-                        GetSupply();
-                        break;
-                    case "3":
-                        ReturnProduct();
-                        break;
-                    case "4":
-                        CheckAvailability();
-                        break;
-                    case "5":
-                        AddNewCashier();
-                        break;
-                    case "6":
-                        ShowStock();
-                        break;
-                    case "0":
-                        Console.WriteLine("Completion of work...");
-                        return;
-                    default:
-                        Console.WriteLine("Wrong choice");
-                        break;
-                }
+                case "1":
+                    SellProduct();
+                    break;
+                case "2":
+                    GetSupply();
+                    break;
+                case "3":
+                    ReturnProduct();
+                    break;
+                case "4":
+                    CheckAvailability();
+                    break;
+                case "5":
+                    AddNewCashier();
+                    break;
+                case "6":
+                    ShowStock();
+                    break;
+                case "0":
+                    Console.WriteLine("Completion of work...");
+                    return;
+                default:
+                    Console.WriteLine("Wrong choice");
+                    break;
             }
         }
+    }
 
-        private void SellProduct()
+    private bool ValidateArticle(string articleInput, out long article)
+    {
+        article = 0;
+        
+        // Проверка на пустую строку
+        if (string.IsNullOrWhiteSpace(articleInput))
         {
-            Console.Write("Entering the product article number: ");
-            int article = int.Parse(Console.ReadLine());
+            Console.WriteLine("Error: Article number cannot be empty!");
+            return false;
+        }
+        
+        // Проверка, что строка состоит только из цифр
+        if (!Regex.IsMatch(articleInput, @"^\d+$"))
+        {
+            Console.WriteLine("Error: Article number must contain only digits!");
+            return false;
+        }
+        
+        // Проверка длины (должна быть 13 символов)
+        if (articleInput.Length != 13)
+        {
+            Console.WriteLine("Error: Article number must be exactly 13 digits long!");
+            return false;
+        }
+        
+        // Попытка преобразовать в long
+        if (!long.TryParse(articleInput, out article))
+        {
+            Console.WriteLine("Error: Invalid article number format!");
+            return false;
+        }
+        
+        return true;
+    }
 
-            Console.Write("Entering the quantity of goods: ");
-            int quantity = int.Parse(Console.ReadLine());
+    // Новый метод для проверки количества
+    private bool ValidateQuantity(string quantityInput, out int quantity)
+    {
+        quantity = 0;
+        
+        // Проверка на пустую строку
+        if (string.IsNullOrWhiteSpace(quantityInput))
+        {
+            Console.WriteLine("Error: Quantity cannot be empty!");
+            return false;
+        }
+        
+        // Проверка, что строка состоит только из цифр
+        if (!Regex.IsMatch(quantityInput, @"^\d+$"))
+        {
+            Console.WriteLine("Error: Quantity must contain only digits!");
+            return false;
+        }
+        
+        // Попытка преобразовать в int
+        if (!int.TryParse(quantityInput, out quantity))
+        {
+            Console.WriteLine("Error: Invalid quantity format!");
+            return false;
+        }
+        
+        // Проверка, что количество больше 0
+        if (quantity <= 0)
+        {
+            Console.WriteLine("Error: Quantity must be greater than 0!");
+            return false;
+        }
+        
+        return true;
+    }
 
-            sell.SellF(article, quantity, storage.ReadStock());
+    private void SellProduct()
+    {
+        Console.Write("Entering the product article number (13 digits): ");
+        string articleInput = Console.ReadLine();
+        
+        long article;
+        if (!ValidateArticle(articleInput, out article))
+        {
+            return;
         }
 
-        private void GetSupply()
+        Console.Write("Entering the quantity of goods: ");
+        string quantityInput = Console.ReadLine();
+        
+        int quantity;
+        if (!ValidateQuantity(quantityInput, out quantity))
         {
-            Console.Write("Entering the product article number: ");
-            int article = int.Parse(Console.ReadLine());
-
-            Console.Write("Entering the quantity of goods: ");
-            int quantity = int.Parse(Console.ReadLine());
-
-            supply.GetSupply(article, quantity, storage.ReadStock());
+            return;
         }
 
-        private void ReturnProduct()
+        sell.SellF(article, quantity, storage.ReadStock());
+    }
+
+    private void GetSupply()
+    {
+        Console.Write("Entering the product article number (13 digits): ");
+        string articleInput = Console.ReadLine();
+        
+        long article;
+        if (!ValidateArticle(articleInput, out article))
         {
-            Console.Write("Entering the product article number: ");
-            int article = int.Parse(Console.ReadLine());
+            return;
+        }
 
-            Console.Write("Entering the quantity of goods: ");
-            int quantity = int.Parse(Console.ReadLine());
+        Console.Write("Entering the quantity of goods: ");
+        string quantityInput = Console.ReadLine();
+        
+        int quantity;
+        if (!ValidateQuantity(quantityInput, out quantity))
+        {
+            return;
+        }
 
-            returnProduct.Ret(article, quantity, storage.ReadStock());
+        supply.GetSupply(article, quantity, storage);
+    }
+
+    private void ReturnProduct()
+    {
+        Console.Write("Entering the product article number (13 digits): ");
+        string articleInput = Console.ReadLine();
+        
+        long article;
+        if (!ValidateArticle(articleInput, out article))
+        {
+            return;
+        }
+
+        Console.Write("Entering the quantity of goods: ");
+        string quantityInput = Console.ReadLine();
+        
+        int quantity;
+        if (!ValidateQuantity(quantityInput, out quantity))
+        {
+            return;
+        }
+
+        if (returnProduct.Ret(article, quantity, storage))
+        {
             Console.WriteLine("Return completed");
         }
-
-        private void CheckAvailability()
+        else
         {
-            Console.Write("Entering the product article number: ");
-            int article = int.Parse(Console.ReadLine());
+            Console.WriteLine("There is no such product"); 
+        }
+        
+    }
 
-            var product = search.SearchF(article, storage.ReadStock());
-            if (product != null)
-            {
-                Console.WriteLine("Product: article number ", product.Article, "quantity: ", product.Quantity);
-            }
-            else
-            {
-                Console.WriteLine("Product not found");
-            }
+    private void CheckAvailability()
+    {
+        Console.Write("Entering the product article number (13 digits): ");
+        string articleInput = Console.ReadLine();
+        
+        long article;
+        if (!ValidateArticle(articleInput, out article))
+        {
+            return;
         }
 
-        private void AddNewCashier()
+        var product = search.SearchF(article, storage.ReadStock());
+        if (product != null)
         {
-            Console.Write("Enter the new cashier's login: ");
-            string login = Console.ReadLine();
-            auth.NewCashier(login);
+            Console.WriteLine("Product: article number " + product.Article + " quantity:" + product.Quantity);
         }
+        else
+        {
+            Console.WriteLine("Product not found");
+        }
+    }
 
-        private void ShowStock()
+    private void AddNewCashier()
+    {
+        Console.Write("Enter the new cashier's login: ");
+        string login = Console.ReadLine();
+        auth.NewCashier(login);
+    }
+
+    private void ShowStock()
+    {
+        var stock = storage.ReadStock();
+        Console.WriteLine("\n=== WAREHOUSE ===");
+        foreach (var product in stock)
         {
-            var stock = storage.ReadStock();
-            Console.WriteLine("\n=== WAREHOUSE ===");
-            foreach (var product in stock)
-            {
-                Console.WriteLine("Article: ", product.Article, ", Quantity: ", product.Quantity);
-            }
+            Console.WriteLine("Article: " + product.Article + ", Quantity: " + product.Quantity);
         }
+    }
 }
-
