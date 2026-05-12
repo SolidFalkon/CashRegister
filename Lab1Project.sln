@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1ProjectLib", "Lab1Proje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLab1", "TestLab1\TestLab1.csproj", "{1C2F4E22-B3C2-4EB6-A2BC-50A3865BE21F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodedUITestProject1", "CodedUITestProject1\CodedUITestProject1.csproj", "{140F5DAD-59D5-4DEC-A1DB-9D5845A44F24}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1C2F4E22-B3C2-4EB6-A2BC-50A3865BE21F} = {1C2F4E22-B3C2-4EB6-A2BC-50A3865BE21F}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +32,10 @@ Global
 		{1C2F4E22-B3C2-4EB6-A2BC-50A3865BE21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C2F4E22-B3C2-4EB6-A2BC-50A3865BE21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C2F4E22-B3C2-4EB6-A2BC-50A3865BE21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140F5DAD-59D5-4DEC-A1DB-9D5845A44F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140F5DAD-59D5-4DEC-A1DB-9D5845A44F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140F5DAD-59D5-4DEC-A1DB-9D5845A44F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140F5DAD-59D5-4DEC-A1DB-9D5845A44F24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

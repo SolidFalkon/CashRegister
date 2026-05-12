@@ -1,0 +1,7 @@
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\CodedUITestProject1\bin\Debug\CodedUITestProject1.pdb
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\CodedUITestProject1\bin\Debug\TestLab1.exe
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\CodedUITestProject1\bin\Debug\TestLab1.pdb
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\CodedUITestProject1\obj\Debug\CodedUITestProject1.csprojResolveAssemblyReference.cache
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\CodedUITestProject1\obj\Debug\CodedUITestProject1.dll
+C:\Users\Артём\Рабочий стол\Конструирование ПО\Lab1Project\CodedUITestProject1\obj\Debug\CodedUITestProject1.pdb

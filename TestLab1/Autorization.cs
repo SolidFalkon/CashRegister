@@ -27,7 +27,7 @@ public class Autorization
 		 var newCashier = new Cashier { Login = login };
             newCashier.Password = newCashier.GenerateNewPassword();
             cashiers.Add(newCashier);
-            Console.WriteLine("A new cashier has been created. Login: ", login, "Password: ", newCashier.Password);
+            Console.WriteLine("A new cashier has been created. Login: " + login + " Password: " + newCashier.Password);
 	}
 
 	public List<Cashier> ReadCashier()

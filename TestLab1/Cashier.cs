@@ -14,13 +14,18 @@ public class Cashier
     public string Login { get; set; }
     public string Password { get; set; }
 
-	public virtual string GenerateNewPassword()
-	{
+    private static readonly Random _random = new Random();
+    private static readonly object _lock = new object();
+
+    public virtual string GenerateNewPassword()
+    {
         const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        var random = new Random();
-        return new string(Enumerable.Repeat(chars, 8)
-            .Select(s => s[random.Next(s.Length)]).ToArray());
-	}
+        lock (_lock)
+        {
+            return new string(Enumerable.Repeat(chars, 8)
+                .Select(s => s[_random.Next(s.Length)]).ToArray());
+        }
+    }
 
 }
 
